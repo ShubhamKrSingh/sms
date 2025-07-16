@@ -10,7 +10,7 @@ public class HelloController {
     @GetMapping("/")
     public String sayHello() {
         System.out.println("Hello, World! from HelloController");
-        return "Hello, World!";
+        return "Hello, World! from morning";
 
     }
 }
